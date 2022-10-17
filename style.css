@@ -1,0 +1,47 @@
+body {
+	display: grid;
+}
+header {
+	text-align: center;
+	background-color: rgba(40, 140, 230, 0.3);
+	margin-top: 0px;
+}
+a {
+	color: rgba(40, 40, 130, 0.9);
+}
+main {
+	display: grid;
+	align-content: space-between;
+	text-align: center;
+	height: 150vh;
+}
+footer {
+	display: grid;
+	justify-items: center;
+	align-self: center;
+	background-color: rgba(140, 40, 30, 0.2);
+}
+img {
+	height: 50px;
+}
+h2 {
+	margin-bottom: 20px;
+} 
+ul {
+	display: grid;
+	justify-content: center;
+	justify-items: start;
+	list-style-position: inside;
+	margin-top: 20px;
+}
+pre {
+	display: grid;
+    justify-content: center;
+    justify-items: start;
+}
+code {
+	text-align: left;
+}
+nav a {
+	margin-right: 8px;
+}
